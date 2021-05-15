@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+html {
+  max-height: 100vh;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -29,7 +33,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: auto;
+  margin: 2rem auto;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -69,15 +73,15 @@ body {
 
 .social-links {
   margin-top: 2rem;
-  padding: 0 calc(4rem + 5%) 2rem 0;
   text-align: right;
 }
 
 .fab {
   font-size: 1.5rem;
   margin-left: 1rem;
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 2rem;
+  width: 2rem;
+  padding: 2.5px;
   text-align: center;
 }
 
@@ -132,7 +136,6 @@ body {
     padding: 1em 4em;
   }
   .social-links {
-    margin-top: 2rem;
     padding: 2rem 0;
     text-align: center;
   }
