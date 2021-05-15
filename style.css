@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  background: url("./images/bg-desktop.svg");
+  background-color: #674baf;
+}
+
+.logo-svg {
+  height: 3rem;
+  margin: 3rem 0;
+  margin-left: 5%;
+}
+
+.hero-container {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.illustration-img {
+  width: 50%;
+}
+
+.hero-content {
+  padding: 2rem 4rem;
+  width: 50%;
+}
+
+.hero-content h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+.hero-content p {
+  font-size: 1rem;
+  padding-bottom: 2rem;
+}
+
+.hero-content button {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1em 4em;
+  border: none;
+  -webkit-box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.4);
+  color: #674baf;
+  border-radius: 32px;
+}
+
+.social-links {
+  margin-top: 2rem;
+  padding: 0 calc(4rem + 5%) 2rem 0;
+  text-align: right;
+}
+
+.fab {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 1300px) {
+  .hero-content h1 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+  .hero-content p {
+    font-size: 0.8rem;
+    padding-bottom: 2rem;
+  }
+  .hero-content button {
+    font-size: 0.8rem;
+    padding: 1em 4em;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .hero-content h1 {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .hero-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .illustration-img {
+    width: 100%;
+  }
+  .hero-content {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    margin-top: 4rem;
+  }
+  .hero-content h1 {
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+  }
+  .hero-content p {
+    font-size: 0.8rem;
+    padding-bottom: 2rem;
+  }
+  .hero-content button {
+    font-size: 0.8rem;
+    padding: 1em 4em;
+  }
+  .social-links {
+    margin-top: 2rem;
+    padding: 2rem 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    background: url("./images/bg-mobile.svg");
+    background-color: #674baf;
+  }
+}
+/*# sourceMappingURL=style.css.map */
